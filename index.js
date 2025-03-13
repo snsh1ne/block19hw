@@ -18,10 +18,6 @@ function init() {
   h1.innerHTML = "Freelancer Forum";
   root.append(h1);
 
-  /**
-   * 👉 STEP 3:
-   *    Create and add a container div to hold our pets in
-   */
   const petsContainer = document.createElement("div");
   petsContainer.id = "petsContainer";
   petsContainer.classList.add("pets");
@@ -29,19 +25,9 @@ function init() {
   petsContainer.classList.remove("dogs");
   root.append(petsContainer);
 
-  console.dir(petsContainer);
-
-  /**
-   * 👉 STEP 5:
-   *    Call the function you created in step 4
-   */
   renderPets();
 } //end init
 
-/**
- * 👉 STEP 4:
- *    Create a function to render the pets in our pets array
- */
 
 function renderPets() {
   //targeted the petsContaier created in the init function
